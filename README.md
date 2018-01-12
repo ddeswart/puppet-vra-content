@@ -1,5 +1,7 @@
 # vRealize Automation Plug-in Starter Content Pack for vRA 7.3 and Puppet plug-in for vRealize 3.0
 
+*** THIS IS A COPY OF THE ORGINAL SOURCE AVAILABLE ON PUPPETLABS GITHUB WITH ADDITIONAL CODE ***
+
 ## Introduction
 
 This repository provides "batteries-included" starter Puppet content for the [Puppet plug-in for vRealize Automation 3.0](https://solutionexchange.vmware.com/store/products/puppet-plugin-for-vrealize-automation). It shows you how Puppet code is organized to make self-service provisioning easy and can create 5 different machine types out of the box:
@@ -8,6 +10,7 @@ This repository provides "batteries-included" starter Puppet content for the [Pu
 - Linux web server
 - Windows base server
 - Windows web server
+- LAMP stack [includes mysql server and webapp server]
 
 With vRA 7.3 and the Puppet plug-in for vRealize Automation 3.0, building Puppet Enterprise blueprints is easier than ever with PE components now built directly into the vRA Enterprise GUI. While creating blueprints, you simply drag and drop the Puppet component onto the blueprint and fill in a couple of text boxes. No need to jump back and forth from vRA to vRO to get set up. Even better, Puppet role classes are now read dynamically from your Puppet Server, so you need only pick from the list instead of typing classes out manually.
 
